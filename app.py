@@ -1,6 +1,3 @@
-
-
-
 import streamlit as st
 from dotenv import load_dotenv
 import os
@@ -11,7 +8,7 @@ from langchain_openai import ChatOpenAI
 load_dotenv()
 
 def show_app_header():
-    st.title("専門家アドバイスアプリ：ビジネスコンサルタント × 心理カウンセラー")
+    st.title("専門家アドバイスアプリ: ビジネスコンサルタント × 心理カウンセラー")
     st.markdown("""
 **このアプリについて**  
 ビジネス課題やメンタル面の悩みについて、AIが専門家になりきって100文字以内でアドバイスを返します。
